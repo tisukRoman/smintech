@@ -19,17 +19,17 @@
       </div>
 
       <div class="header__contact">
-        <a href="mailto:gfrp@mail.com" class="header__icon">
+        <a href="mailto:reachus@smincomposites.com" class="header__icon">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/mail.svg" alt="mail icon" />
         </a>
-        <a class="header__link" href="mailto:gfrp@mail.com">gfrp@mail.com</a>
+        <a class="header__link" href="mailto:reachus@smincomposites.com">reachus@smincomposites.com</a>
       </div>
 
       <div class="header__contact">
-        <a href="tel:+7 (000) 000 00 00" class="header__icon">
+        <a href="tel:+919667319696" class="header__icon">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/phone.svg" alt="phone icon" />
         </a>
-        <a class="header__link" href="tel:+7 (000) 000 00 00">+7 (000) 000 00 00</a>
+        <a class="header__link" href="tel:+919667319696">+91 9667319696</a>
       </div>
     </div>
   </header>

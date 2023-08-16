@@ -10,22 +10,19 @@
           <a href="#">Homepage</a>
         </li>
         <li class="menu__list-item">
-          <a href="#">GFRP rebar</a>
+          <a href="#about">GFRP REBAR</a>
         </li>
         <li class="menu__list-item">
-          <a href="#">why smin bar</a>
+          <a href="#applications">Applications</a>
         </li>
         <li class="menu__list-item">
-          <a href="#">Company</a>
+          <a href="#advantages">Advantages</a>
         </li>
         <li class="menu__list-item">
-          <a href="#">Applications</a>
+          <a href="#projects">Projects</a>
         </li>
         <li class="menu__list-item">
-          <a href="#">Faqs</a>
-        </li>
-        <li class="menu__list-item">
-          <a href="#">Contact Us</a>
+          <a href="#call-me-back">Contact Us</a>
         </li>
       </ul>
     </nav>
@@ -37,7 +34,7 @@
       <p class="hero__paragraph paragraph">Lorem ipsum dolor sit amet consectetur. Id malesuada hac a egestas massa. At bibendum mauris sed ullamcorper quisque vel.</p>
     </div>
 
-    <a href="#" class="hero__button button">
+    <a href="#call-me-back" class="hero__button button">
       Learn more
     </a>
 
@@ -86,7 +83,7 @@
     </div>
 
     <div class="future__button">
-      <a href="#" class="button">Call me back</a>
+      <a href="#call-me-back" class="button">Call me back</a>
     </div>
   </div>
 
@@ -217,7 +214,7 @@
     </div>
 
     <div class="applications__button-box">
-      <a href="#" class="applications__button button button--outlined">Learn More</a>
+      <a href="#call-me-back" class="applications__button button button--outlined">Learn More</a>
     </div>
   </div>
 </section>
@@ -229,6 +226,16 @@
     <div class="advantages__grid">
 
       <div class="advantages__col advantages__col--1">
+
+        <article class="content-box">
+          <div class="content-box__text">
+            <h5 class="content-box__title">Cost Efficient</h5>
+            <p class="content-box__paragraph paragraph">GFRP is a cost-efficient product that reduces the overall cost of the project</p>
+          </div>
+          <div class="content-box__image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/advantage-3.svg" />
+          </div>
+        </article>
 
         <article class="content-box">
           <div class="content-box__text">
@@ -247,16 +254,6 @@
           </div>
           <div class="content-box__image">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/advantage-2.svg" />
-          </div>
-        </article>
-
-        <article class="content-box">
-          <div class="content-box__text">
-            <h5 class="content-box__title">Cost Efficient</h5>
-            <p class="content-box__paragraph paragraph">GFRP is a cost-efficient product that reduces the overall cost of the project</p>
-          </div>
-          <div class="content-box__image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/advantage-3.svg" />
           </div>
         </article>
 
@@ -431,7 +428,7 @@
 <section id="future-2" class="future future--2">
   <div class="future__container">
     <div class="future__button">
-      <a href="#" class="button">Call me back</a>
+      <a href="#call-me-back" class="button">Call me back</a>
     </div>
 
     <div class="future__text">

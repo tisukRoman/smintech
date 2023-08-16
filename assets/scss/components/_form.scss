@@ -1,0 +1,25 @@
+.form {
+  .field {
+    width: 100%;
+    padding: rem(19) rem(30);
+    margin-bottom: rem(30);
+    border-bottom: 1px solid #d9d9d9;
+    border-radius: 5px;
+
+    color: $color-dark-1;
+    font-size: rem(18);
+    font-weight: 400;
+
+    &::placeholder {
+      color: $color-dark-1;
+      font-size: rem(18);
+      font-weight: 400;
+    }
+  }
+
+  .button {
+    display: block;
+    margin: 0 auto;
+    width: rem(280);
+  }
+}

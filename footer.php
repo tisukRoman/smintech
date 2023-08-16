@@ -43,7 +43,7 @@
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer-logo.svg" alt="smintech logo" />
         </div>
 
-        <div class="copyright__mark">All rights reserved © 2023г</div>
+        <div class="copyright__mark">(C) 2023 SMIN Composite Tech Pvt. Ltd.</div>
 
         <div class="copyright__policy">
           <a href="#">Privacy policy</a>
@@ -53,6 +53,22 @@
     </div>
 
     </div> <!-- THE END OF WRAPPER -->
+
+    <section class="popup" id="call-me-back">
+      <div class="popup__content">
+        <div class="popup__close">
+          <span></span>
+          <span></span>
+        </div>
+
+        <h4 class="popup__title">Feedback</h4>
+
+        <div class="popup__form form">
+          <?php echo apply_shortcodes('[contact-form-7 title="Call me back"]'); ?>
+        </div>
+
+      </div>
+    </section>
 
     <?php wp_footer() ?>
   </body>

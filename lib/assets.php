@@ -12,18 +12,18 @@ function project_name_assets_dev(){
   $vendor_version = filemtime( "{$ABSOLUTE_ASSETS_PATH}/js/vendor.min.js" );
   $custom_version = filemtime( "{$ABSOLUTE_ASSETS_PATH}/js/custom.min.js" );
 
-  wp_enqueue_style( 'project-name-main-stylesheet', "{$ASSETS}/css/main.css", array(), $style_version, 'all' );
-  wp_enqueue_script( 'project-name-vendor-script', "{$ASSETS}/js/vendor.js", array(), $vendor_version, true );
-  wp_enqueue_script( 'project-name-custom-script', "{$ASSETS}/js/custom.js", array('project-name-vendor-script'), $custom_version, true );
+  wp_enqueue_style( 'smintech-main-stylesheet', "{$ASSETS}/css/main.css", array(), $style_version, 'all' );
+  wp_enqueue_script( 'smintech-vendor-script', "{$ASSETS}/js/vendor.min.js", array('jquery'), $vendor_version, true );
+  wp_enqueue_script( 'smintech-custom-script', "{$ASSETS}/js/custom.js", array('jquery', 'smintech-vendor-script'), $custom_version, true );
 }
 
 // For Production ( With caching )
 function project_name_assets_prod(){
   $ASSETS = get_template_directory_uri() . '/assets'; // Dir to the assets theme folder
 
-  wp_enqueue_style( 'project-name-main-stylesheet', "{$ASSETS}/css/main.css", array(), '1.0.0', 'all' );
-  wp_enqueue_script( 'project-name-vendor-script', "{$ASSETS}/js/vendor.min.js", array(), '1.0.0', true );
-  wp_enqueue_script( 'project-name-custom-script', "{$ASSETS}/js/custom.min.js", array('project-name-vendor-script'), '1.0.0', true );
+  wp_enqueue_style( 'smintech-main-stylesheet', "{$ASSETS}/css/main.css", array(), '1.0.0', 'all' );
+  wp_enqueue_script( 'smintech-vendor-script', "{$ASSETS}/js/vendor.min.js", array(), '1.0.0', true );
+  wp_enqueue_script( 'smintech-custom-script', "{$ASSETS}/js/custom.min.js", array('smintech-vendor-script'), '1.0.0', true );
 }
 
 

@@ -35,12 +35,16 @@
   &__container {
     height: rem(90);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
 
+  &__logo {
+    display: none;
+  }
+
   &__policy {
-    display: flex;
+    display: none;
     gap: rem(38);
 
     a {

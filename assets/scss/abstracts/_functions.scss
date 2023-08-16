@@ -1,5 +1,7 @@
 // CONVERTS PX TO REM
-@function rem($value) {
-  $remValue: ($value / 14) + rem;
-  @return $remValue;
+
+$base-font-size: 17;
+
+@function rem($size) {
+  @return $size / $base-font-size + rem;
 }
