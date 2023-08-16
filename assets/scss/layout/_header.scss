@@ -1,0 +1,29 @@
+.header {
+  position: relative;
+  z-index: 1;
+
+  &__container {
+    height: rem(90);
+    display: flex;
+    align-items: center;
+    gap: rem(36);
+  }
+
+  &__logo {
+    margin-right: auto;
+  }
+
+  &__contact {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+  }
+
+  &__link {
+    transition: 0.3s ease;
+
+    &:hover {
+      color: $color-primary;
+    }
+  }
+}

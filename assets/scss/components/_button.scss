@@ -1,0 +1,27 @@
+.button {
+  display: inline-block;
+  border-radius: rem(30);
+  padding: rem(19) rem(84);
+  background-color: $color-primary;
+
+  color: #fff;
+  font-size: rem(18);
+  text-transform: uppercase;
+  transition: 0.2s ease-out;
+
+  &:hover {
+    background-color: rgba($color-primary, 0.9);
+  }
+
+  &--outlined {
+    background-color: transparent;
+    border: 1px solid $color-primary;
+    color: $color-dark-1;
+
+    &:hover {
+      border: 1px solid rgba($color-primary, 0.9);
+      background-color: rgba($color-primary, 0.9);
+      color: #fff;
+    }
+  }
+}

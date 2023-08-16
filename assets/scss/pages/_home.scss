@@ -1,0 +1,278 @@
+.hero {
+  height: rem(770);
+  background-color: $color-grey;
+
+  &__text {
+    margin-top: rem(103);
+    position: relative;
+    z-index: 1;
+  }
+
+  &__subtitle {
+    margin: 0;
+    font-size: rem(21);
+    color: $color-dark-2;
+  }
+
+  &__title {
+    margin: rem(30) 0;
+    font-size: rem(65);
+    font-weight: 300;
+    text-transform: uppercase;
+
+    b {
+      font-weight: 700;
+    }
+  }
+
+  &__paragraph {
+    max-width: 708px;
+  }
+
+  &__button {
+    margin-top: rem(63);
+  }
+
+  &__image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+  }
+}
+
+.about {
+  &__block {
+    margin-top: rem(100);
+    height: rem(450);
+    overflow: hidden;
+    display: flex;
+  }
+
+  &__text {
+    flex: 1 1 45%;
+    margin: auto 0;
+    padding-left: rem(66);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: rem(280);
+    border-left: 2px solid $color-primary;
+  }
+
+  &__paragraph {
+    margin-top: rem(20);
+  }
+
+  &__image {
+    flex: 1 1 65%;
+
+    img {
+      max-width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__block--2 {
+    margin-top: rem(120);
+  }
+
+  &__block--2 &__text {
+    order: 2;
+    border-left: none;
+    border-right: 2px solid $color-primary;
+    padding-left: 0;
+    padding-right: rem(66);
+  }
+
+  &__block--2 &__image {
+    order: 1;
+  }
+}
+
+.future {
+  background-color: $color-grey;
+  margin-top: rem(100);
+  height: rem(350);
+
+  position: relative;
+  overflow: hidden;
+
+  &__container {
+    max-width: rem(1196 + 30);
+    padding: rem(70) rem(15);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  &__text {
+    max-width: rem(666);
+  }
+
+  &__paragraph {
+    margin-top: rem(30);
+  }
+
+  &__button {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+  }
+
+  &__heading-4 {
+    text-transform: uppercase;
+  }
+
+  &--2 &__image {
+    left: 0;
+    transform: translateX(10%);
+  }
+}
+
+.applications {
+  &__container {
+    margin-top: rem(150);
+  }
+
+  &__grid {
+    margin-top: rem(50);
+    height: rem(770);
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    gap: rem(30);
+  }
+
+  .card:nth-child(1) {
+    grid-area: 1 / 1 / 6 / 3;
+  }
+  .card:nth-child(2) {
+    grid-area: 1 / 3 / 5 / 5;
+  }
+  .card:nth-child(3) {
+    grid-area: 1 / 5 / 6 / 7;
+  }
+  .card:nth-child(4) {
+    grid-area: 6 / 1 / 10 / 3;
+  }
+  .card:nth-child(5) {
+    grid-area: 5 / 3 / 10 / 5;
+  }
+  .card:nth-child(6) {
+    grid-area: 6 / 5 / 10 / 7;
+  }
+
+  &__button-box {
+    margin: rem(50);
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.advantages {
+  &__container {
+    margin-top: rem(140);
+    overflow: hidden;
+  }
+
+  &__heading-3 {
+    margin: 0 auto;
+    max-width: rem(995);
+  }
+
+  &__grid {
+    width: 100%;
+    margin-top: rem(40);
+    height: rem(677);
+    display: flex;
+    align-items: center;
+  }
+
+  &__col {
+    display: flex;
+    flex-direction: column;
+    gap: rem(70);
+
+    &--1 {
+      flex: 1 1 40%;
+      margin-right: rem(97);
+    }
+
+    &--2 {
+      flex: 1 1 22%;
+      position: relative;
+
+      img {
+        max-width: 100%;
+      }
+
+      &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: -100%;
+        height: rem(130);
+        width: 300%;
+        border-radius: 50%;
+        transform: translateY(50%);
+        border-radius: rem(620);
+        background: radial-gradient(
+          50% 50% at 50% 50%,
+          rgba(0, 0, 0, 0.2) 0%,
+          rgba(0, 0, 0, 0) 100%
+        );
+      }
+    }
+
+    &--3 {
+      flex: 1 1 40%;
+      margin-left: rem(79);
+    }
+  }
+}
+
+.projects {
+  &__container {
+    margin-top: rem(147);
+  }
+
+  &__grid {
+    height: rem(1317);
+    margin-top: rem(45);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: rem(30);
+  }
+
+  .card:nth-child(1) {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .card:nth-child(2) {
+    grid-area: 1 / 2 / 2 / 4;
+  }
+  .card:nth-child(3) {
+    grid-area: 2 / 1 / 3 / 3;
+  }
+  .card:nth-child(4) {
+    grid-area: 2 / 3 / 3 / 4;
+  }
+  .card:nth-child(5) {
+    grid-area: 3 / 1 / 4 / 2;
+  }
+  .card:nth-child(6) {
+    grid-area: 3 / 2 / 4 / 4;
+  }
+}

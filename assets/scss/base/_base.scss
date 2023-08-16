@@ -1,0 +1,30 @@
+html {
+  font-size: 17px;
+  font-family: $font-primary;
+  scroll-behavior: smooth;
+}
+
+* {
+  // Default text color
+  color: $color-dark-1;
+  border: 1px solid red;
+}
+
+[class*="__container"] {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: rem(1296 + 30);
+}
+
+.wrapper {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100%;
+}
+
+main {
+  flex: 1;
+}

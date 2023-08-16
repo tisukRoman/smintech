@@ -1,0 +1,46 @@
+.paragraph {
+  color: $color-dark-2;
+  line-height: 1.8;
+  font-size: rem(17);
+}
+
+.heading-2 {
+  font-size: rem(65);
+  font-weight: 700;
+  text-transform: uppercase;
+
+  span {
+    color: $color-primary;
+  }
+}
+
+.heading-3 {
+  font-size: rem(55);
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+
+  span {
+    color: $color-primary;
+  }
+
+  i {
+    font-style: normal;
+    font-weight: 300;
+  }
+}
+
+.heading-4 {
+  font-size: rem(35);
+  font-weight: 700;
+
+  span {
+    color: $color-primary;
+  }
+}
+
+.heading-6 {
+  font-size: rem(17);
+  font-weight: 500;
+  line-height: 2;
+}
