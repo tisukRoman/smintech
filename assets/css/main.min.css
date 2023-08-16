@@ -126,7 +126,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:400}
 .hero__title b{font-weight:700}
 .hero__paragraph{max-width:708px}
 .hero__button{margin-top:3.7058823529rem}
-.hero__image{position:absolute;top:0;right:0;z-index:0}
+.hero__image{position:absolute;width:50vw;top:0;right:0;z-index:0}
+.hero__image img{width:100%}
 .about__block{margin-top:5.8823529412rem;height:26.4705882353rem;overflow:hidden;display:-webkit-box;display:-ms-flexbox;display:flex}
 .about__text{-webkit-box-flex:1;-ms-flex:1 1 45%;flex:1 1 45%;margin:auto 0;padding-left:3.8823529412rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;height:16.4705882353rem;border-left:2px solid #039535}
 .about__paragraph{margin-top:1.1764705882rem}

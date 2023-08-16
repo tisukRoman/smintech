@@ -30,3 +30,34 @@ jQuery(document).ready(function ($) {
     e.stopPropagation();
   });
 });
+
+/*
+ * Learn More Popup
+ */
+jQuery(document).ready(function ($) {
+  var isOpen = false;
+  $('[href="#learn-more"]').click(function (e) {
+    e.preventDefault();
+    $("#learn-more").fadeIn(500);
+    setTimeout(function () {
+      return isOpen = true;
+    }, 500);
+  });
+  $("#learn-more .popup__close").click(function () {
+    $("#learn-more").fadeOut(500);
+    setTimeout(function () {
+      return isOpen = false;
+    }, 500);
+  });
+  $("body").click(function () {
+    if (isOpen) {
+      $("#learn-more").fadeOut(500);
+      setTimeout(function () {
+        return isOpen = false;
+      }, 500);
+    }
+  });
+  $("#learn-more .popup__content").click(function (e) {
+    e.stopPropagation();
+  });
+});

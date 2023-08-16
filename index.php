@@ -34,7 +34,7 @@
       <p class="hero__paragraph paragraph">Lorem ipsum dolor sit amet consectetur. Id malesuada hac a egestas massa. At bibendum mauris sed ullamcorper quisque vel.</p>
     </div>
 
-    <a href="#call-me-back" class="hero__button button">
+    <a href="#learn-more" class="hero__button button">
       Learn more
     </a>
 
@@ -214,7 +214,7 @@
     </div>
 
     <div class="applications__button-box">
-      <a href="#call-me-back" class="applications__button button button--outlined">Learn More</a>
+      <a href="#learn-more" class="applications__button button button--outlined">Learn More</a>
     </div>
   </div>
 </section>
