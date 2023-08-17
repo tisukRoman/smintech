@@ -31,5 +31,10 @@
         </a>
         <a class="header__link" href="tel:+919667319696">+91 9667319696</a>
       </div>
+
+      <div class="mobile-menu-icon">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/mobile-menu.svg" />
+      </div>
     </div>
+
   </header>

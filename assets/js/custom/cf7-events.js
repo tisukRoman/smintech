@@ -9,8 +9,7 @@ const downloadFile = () => {
   var link = document.createElement("a");
   link.setAttribute("download", "smintech-file");
   document.body.appendChild(link);
-  link.href =
-    "http://localhost:3000/wp-content/themes/smintech/assets/img/hero.png";
+  link.href = smintech.template_uri + "/assets/img/hero.png";
   link.click();
 };
 

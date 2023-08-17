@@ -8,6 +8,10 @@
   @include for-tablet-landscape {
     font-size: $base-font-size - 2 + px;
   }
+
+  @include for-mobile {
+    font-size: $base-font-size - 3 + px;
+  }
 }
 
 html {

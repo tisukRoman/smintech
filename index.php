@@ -29,7 +29,7 @@
 
     <div class="hero__text">
       <h5 class="hero__subtitle">GFRP Rebars</h5>
-      <h1 class="hero__title">Smart Innovation in<br>
+      <h1 class="hero__title">Smart Innovation in
       <b>concrete reinfocement</b></h1>
       <p class="hero__paragraph paragraph">
         GFRP rebar is a new-age substitute for traditional steel in concrete reinforcement. An engineered construction material, GFRP rebars solve the biggest problem with steel: CORROSION.
@@ -51,6 +51,11 @@
     <article class="about__block">
       <div class="about__text">
         <h4 class="about__heading-4 heading-4"><span>SMINBar world class</span> product made in India</h4>
+
+        <div class="about__image about__image--mobile">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/about-1.png" alt="Armatures"/>
+        </div>
+
         <p class="about__paragraph paragraph">
           We proudly offer a wide range of GFRP rebars manufactured in India to the highest quality, strength, and durability standards. All our products have undergone rigorous testing and exceed international industry specifications.
         </p>
@@ -63,6 +68,9 @@
     <article class="about__block about__block--2">
       <div class="about__text">
         <h4 class="about__heading-4 heading-4"><span>Trusted by experts</span> globally for world class solutions</h4>
+        <div class="about__image about__image--mobile">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/about-2.png" alt="Armatures"/>
+        </div>
         <p class="about__paragraph paragraph">
           Our product quality ensures reliability and performance in diverse construction applications. We comply with the ACI/ASTM manufacturing guidelines.
         </p>

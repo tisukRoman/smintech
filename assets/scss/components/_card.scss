@@ -19,6 +19,12 @@
 
     transition: 0.4s ease;
     transform: translateY(100%);
+
+    @include for-mobile {
+      height: rem(300);
+      position: relative;
+      transform: none;
+    }
   }
 
   &:hover &__text {
@@ -59,6 +65,10 @@
     height: 100%;
     position: relative;
 
+    @include for-mobile {
+      height: rem(300);
+    }
+
     img {
       width: 100%;
       height: 100%;
@@ -94,6 +104,10 @@
 
     transition: 0.3s ease;
     opacity: 1;
+
+    @include for-mobile {
+      display: none;
+    }
   }
 
   &:hover &__caption {

@@ -12,6 +12,10 @@
   span {
     color: $color-primary;
   }
+
+  @include for-mobile {
+    font-size: rem(43);
+  }
 }
 
 .heading-3 {
@@ -28,6 +32,10 @@
     font-style: normal;
     font-weight: 300;
   }
+
+  @include for-mobile {
+    font-size: rem(37);
+  }
 }
 
 .heading-4 {
@@ -36,6 +44,10 @@
 
   span {
     color: $color-primary;
+  }
+
+  @include for-mobile {
+    font-size: rem(28);
   }
 }
 

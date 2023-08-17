@@ -7,6 +7,10 @@
     display: flex;
     align-items: center;
     gap: rem(36);
+
+    @include for-mobile {
+      gap: 0;
+    }
   }
 
   &__logo {
@@ -17,6 +21,10 @@
     display: flex;
     align-items: center;
     gap: 9px;
+
+    @include for-mobile {
+      display: none;
+    }
   }
 
   &__link {

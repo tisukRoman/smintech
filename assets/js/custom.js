@@ -1,6 +1,27 @@
 "use strict";
 
 /*
+ * CONTACT FORM 7 EVENTS
+ */
+
+/*
+ * Download File when submit "Learn More" contact form
+ */
+var downloadFile = function downloadFile() {
+  var link = document.createElement("a");
+  link.setAttribute("download", "smintech-file");
+  document.body.appendChild(link);
+  link.href = smintech.template_uri + "/assets/img/hero.png";
+  link.click();
+};
+var learnMoreForm = document.querySelector("#learn-more .wpcf7");
+learnMoreForm.addEventListener("wpcf7mailsent", function (e) {
+  downloadFile();
+  $("#learn-more").fadeOut(500);
+});
+"use strict";
+
+/*
  * Call Me Back Popup
  */
 jQuery(document).ready(function ($) {
@@ -63,22 +84,45 @@ jQuery(document).ready(function ($) {
 });
 "use strict";
 
-/*
- * CONTACT FORM 7 EVENTS
- */
-
-/*
- * Download File when submit "Learn More" contact form
- */
-var downloadFile = function downloadFile() {
-  var link = document.createElement("a");
-  link.setAttribute("download", "smintech-file");
-  document.body.appendChild(link);
-  link.href = "http://localhost:3000/wp-content/themes/smintech/assets/img/hero.png";
-  link.click();
-};
-var learnMoreForm = document.querySelector("#learn-more .wpcf7");
-learnMoreForm.addEventListener("wpcf7mailsent", function (e) {
-  downloadFile();
-  $("#learn-more").fadeOut(500);
+function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
+function _defineProperty(obj, key, value) { key = _toPropertyKey(key); if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return _typeof(key) === "symbol" ? key : String(key); }
+function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
+jQuery(document).ready(function ($) {
+  $(".applications__grid").slick({
+    infinite: true,
+    autoplay: true,
+    dots: true,
+    fade: true,
+    speed: 500,
+    arrows: false,
+    responsive: [{
+      breakpoint: 3000,
+      settings: "unslick"
+    }, {
+      breakpoint: 767.98,
+      settings: _defineProperty({
+        slidesToShow: 1
+      }, "slidesToShow", 1)
+    }]
+  });
+});
+jQuery(document).ready(function ($) {
+  $(".projects__grid").slick({
+    infinite: true,
+    autoplay: true,
+    dots: true,
+    fade: true,
+    speed: 500,
+    arrows: false,
+    responsive: [{
+      breakpoint: 3000,
+      settings: "unslick"
+    }, {
+      breakpoint: 767.98,
+      settings: _defineProperty({
+        slidesToShow: 1
+      }, "slidesToShow", 1)
+    }]
+  });
 });

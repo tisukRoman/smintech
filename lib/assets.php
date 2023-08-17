@@ -15,6 +15,10 @@ function project_name_assets_dev(){
   wp_enqueue_style( 'smintech-main-stylesheet', "{$ASSETS}/css/main.css", array(), $style_version, 'all' );
   wp_enqueue_script( 'smintech-vendor-script', "{$ASSETS}/js/vendor.min.js", array('jquery'), $vendor_version, true );
   wp_enqueue_script( 'smintech-custom-script', "{$ASSETS}/js/custom.js", array('jquery', 'smintech-vendor-script'), $custom_version, true );
+
+  wp_localize_script( 'smintech-custom-script', 'smintech', array(
+    'template_uri' => get_template_directory_uri()
+  ));
 }
 
 // For Production ( With caching )

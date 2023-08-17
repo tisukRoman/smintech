@@ -2,6 +2,10 @@
   position: relative;
   z-index: 1;
 
+  @include for-mobile {
+    display: none;
+  }
+
   &__list {
     display: flex;
     gap: rem(20);
