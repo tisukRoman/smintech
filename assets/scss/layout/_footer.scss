@@ -5,28 +5,45 @@
   &__container {
     padding-top: rem(54);
     padding-bottom: rem(61);
-  }
-
-  &__menu {
     display: flex;
     justify-content: space-between;
+    gap: 8%;
+  }
 
-    ul li:first-child {
+  &__logo {
+    max-width: rem(220);
+    margin-right: auto;
+    flex: 0 0;
+  }
+
+  &__content-box {
+    max-width: rem(320);
+    flex: 1 1;
+    display: flex;
+    gap: rem(6);
+  }
+
+  &__title {
+    font-size: rem(17);
+    font-weight: 700;
+    margin-bottom: rem(17);
+  }
+
+  &__info {
+    color: $color-dark-1;
+
+    p {
+      margin-bottom: rem(12);
+      line-height: normal;
+    }
+
+    a {
       font-weight: 700;
-      font-size: rem(17);
-      margin-bottom: rem(17);
-    }
-
-    li {
-      line-height: 2;
-    }
-
-    li a {
       transition: 0.2s ease;
-    }
 
-    li a:hover {
-      color: $color-primary;
+      &:hover {
+        color: $color-primary;
+      }
     }
   }
 }
@@ -37,23 +54,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-
-  &__logo {
-    display: none;
-  }
-
-  &__policy {
-    display: none;
-    gap: rem(38);
-
-    a {
-      text-decoration: underline;
-      transition: 0.2s ease;
-
-      &:hover {
-        color: $color-primary;
-      }
-    }
   }
 }

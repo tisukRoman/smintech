@@ -1,54 +1,45 @@
     <footer id="footer" class="footer">
       <div class="footer__container">
-        <nav class="footer__menu">
 
-          <div class="footer__col">
-            <ul>
-              <li>Title</li>
-              <li><a href="#">Link to other page</a></li>
-              <li><a href="#">Link to other page</a></li>
-              <li><a href="#">Link to other page</a></li>
-            </ul>
-          </div>
+        <div class="footer__logo">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer-logo.svg" alt="smintech logo" />
+        </div>
 
-          <div class="footer__col">
-            <ul>
-              <li>Title</li>
-              <li><a href="#">Link to other page</a></li>
-              <li><a href="#">Link to other page</a></li>
-              <li><a href="#">Link to other page</a></li>
-              <li><a href="#">Link to other page</a></li>
-            </ul>
+        <div class="footer__content-box">
+          <div class="footer__icon">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer-contact.svg" alt="smintech contact" />
           </div>
+          <div class="footer__text">
+            <div class="footer__title">
+              Contacts
+            </div>
+            <div class="footer__info">
+              <p>Email ID: <a href="mailto:reachus@smincomposites.com">reachus@smincomposites.com</a></p>
+              <p>Phone: <a href="tel:+919667319696">+91 9667319696</a></p>
+            </div>
+          </div>
+        </div>
 
-          <div class="footer__col">
-            <ul>
-              <li>Contacts</li>
-            </ul>
+        <div class="footer__content-box">
+          <div class="footer__icon">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer-location.svg" alt="smintech location" />
           </div>
+          <div class="footer__text">
+            <div class="footer__title">
+              Corporate Office:
+            </div>
+            <div class="footer__info">
+              <p>501 & 501A, Salcon Rasvilas, District Centre, Saket, New Delhi, Delhi 110017</p>            
+            </div>
+          </div>
+        </div>
 
-          <div class="footer__col">
-            <ul>
-              <li>Address</li>
-              <li>Россия, Москва, Ленинградское ш., 2Б, стр. 1</li>
-            </ul>
-          </div>
-        </nav>
       </div>
     </footer>
 
     <div class="copyright">
       <div class="copyright__container">
-        <div class="copyright__logo">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer-logo.svg" alt="smintech logo" />
-        </div>
-
         <div class="copyright__mark">(C) 2023 SMIN Composite Tech Pvt. Ltd.</div>
-
-        <div class="copyright__policy">
-          <a href="#">Privacy policy</a>
-          <a href="#">Personal Data Processing Policy</a>
-        </div>
       </div>
     </div>
 

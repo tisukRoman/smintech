@@ -98,7 +98,7 @@
     
     <div class="applications__grid">
 
-      <a href="#" class="card">
+      <article href="#" class="card">
         <figure class="card__figure">
           <img class="card__image" src="<?php echo get_template_directory_uri(); ?>/assets/img/application-1.jpg" />
           <figcaption class="card__caption">Bridge Decks</figcaption>
@@ -115,9 +115,9 @@
             </svg>
           </span>
         </div>
-      </a>
+      </article>
 
-      <a href="#" class="card">
+      <article href="#" class="card">
         <figure class="card__figure">
           <img class="card__image" src="<?php echo get_template_directory_uri(); ?>/assets/img/application-2.jpg" />
           <figcaption class="card__caption">Base slabs, walls columns</figcaption>
@@ -134,9 +134,9 @@
             </svg>
           </span>
         </div>
-      </a>
+      </article>
 
-      <a href="#" class="card">
+      <article href="#" class="card">
         <figure class="card__figure">
           <img class="card__image" src="<?php echo get_template_directory_uri(); ?>/assets/img/application-3.jpg" />
           <figcaption class="card__caption">Industrial slubs and RCC roads</figcaption>
@@ -153,9 +153,9 @@
             </svg>
           </span>
         </div>
-      </a>
+      </article>
 
-      <a href="#" class="card">
+      <article href="#" class="card">
         <figure class="card__figure">
           <img class="card__image" src="<?php echo get_template_directory_uri(); ?>/assets/img/application-4.jpg" />
           <figcaption class="card__caption">swimming pools and septic tanks</figcaption>
@@ -172,9 +172,9 @@
             </svg>
           </span>
         </div>
-      </a>
+      </article>
 
-      <a href="#" class="card">
+      <article href="#" class="card">
         <figure class="card__figure">
           <img class="card__image" src="<?php echo get_template_directory_uri(); ?>/assets/img/application-5.jpg" />
           <figcaption class="card__caption">Roads and infrastructure</figcaption>
@@ -191,9 +191,9 @@
             </svg>
           </span>
         </div>
-      </a>
+      </article>
 
-      <a href="#" class="card">
+      <article href="#" class="card">
         <figure class="card__figure">
           <img class="card__image" src="<?php echo get_template_directory_uri(); ?>/assets/img/application-6.jpg" />
           <figcaption class="card__caption">Channels and port infrastructure</figcaption>
@@ -210,7 +210,7 @@
             </svg>
           </span>
         </div>
-      </a>
+      </article>
     </div>
 
     <div class="applications__button-box">
@@ -307,7 +307,7 @@
 
     <div class="projects__grid">
 
-      <a href="#" class="card">
+      <article href="#" class="card">
         <figure class="card__figure">
           <img class="card__image" src="<?php echo get_template_directory_uri(); ?>/assets/img/project-1.jpg" />
           <figcaption class="card__caption">Name project</figcaption>
@@ -324,9 +324,9 @@
             </svg>
           </span>
         </div>
-      </a>
+      </article>
 
-      <a href="#" class="card">
+      <article href="#" class="card">
         <figure class="card__figure">
           <img class="card__image" src="<?php echo get_template_directory_uri(); ?>/assets/img/project-2.jpg" />
           <figcaption class="card__caption">Name project</figcaption>
@@ -343,9 +343,9 @@
             </svg>
           </span>
         </div>
-      </a>
+      </article>
 
-      <a href="#" class="card">
+      <article href="#" class="card">
         <figure class="card__figure">
           <img class="card__image" src="<?php echo get_template_directory_uri(); ?>/assets/img/project-3.jpg" />
           <figcaption class="card__caption">Name project</figcaption>
@@ -362,9 +362,9 @@
             </svg>
           </span>
         </div>
-      </a>
+      </article>
 
-      <a href="#" class="card">
+      <article href="#" class="card">
         <figure class="card__figure">
           <img class="card__image" src="<?php echo get_template_directory_uri(); ?>/assets/img/project-4.jpg" />
           <figcaption class="card__caption">Name project</figcaption>
@@ -381,9 +381,9 @@
             </svg>
           </span>
         </div>
-      </a>
+      </article>
 
-      <a href="#" class="card">
+      <article href="#" class="card">
         <figure class="card__figure">
           <img class="card__image" src="<?php echo get_template_directory_uri(); ?>/assets/img/project-5.jpg" />
           <figcaption class="card__caption">Name project</figcaption>
@@ -400,9 +400,9 @@
             </svg>
           </span>
         </div>
-      </a>
+      </article>
 
-      <a href="#" class="card">
+      <article href="#" class="card">
         <figure class="card__figure">
           <img class="card__image" src="<?php echo get_template_directory_uri(); ?>/assets/img/project-6.jpg" />
           <figcaption class="card__caption">Name project</figcaption>
@@ -419,7 +419,7 @@
             </svg>
           </span>
         </div>
-      </a>
+      </article>
       
     </div>
   </div>

@@ -69,17 +69,15 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:400}
 .header__link{-webkit-transition:.3s ease;transition:.3s ease}
 .header__link:hover{color:#039535}
 .footer{margin-top:8.9411764706rem;background-color:#f4f4f4}
-.footer__container{padding-top:3.1764705882rem;padding-bottom:3.5882352941rem}
-.footer__menu{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
-.footer__menu ul li:first-child{font-weight:700;font-size:1rem;margin-bottom:1rem}
-.footer__menu li{line-height:2}
-.footer__menu li a{-webkit-transition:.2s ease;transition:.2s ease}
-.footer__menu li a:hover{color:#039535}
+.footer__container{padding-top:3.1764705882rem;padding-bottom:3.5882352941rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;gap:8%}
+.footer__logo{max-width:12.9411764706rem;margin-right:auto;-webkit-box-flex:0;-ms-flex:0;flex:0}
+.footer__content-box{max-width:18.8235294118rem;-webkit-box-flex:1;-ms-flex:1 1;flex:1 1;display:-webkit-box;display:-ms-flexbox;display:flex;gap:.3529411765rem}
+.footer__title{font-size:1rem;font-weight:700;margin-bottom:1rem}
+.footer__info{color:#383838}
+.footer__info p{margin-bottom:.7058823529rem;line-height:normal}
+.footer__info a{font-weight:700;-webkit-transition:.2s ease;transition:.2s ease}
+.footer__info a:hover{color:#039535}
 .copyright__container{height:5.2941176471rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
-.copyright__logo{display:none}
-.copyright__policy{display:none;gap:2.2352941176rem}
-.copyright__policy a{text-decoration:underline;-webkit-transition:.2s ease;transition:.2s ease}
-.copyright__policy a:hover{color:#039535}
 .menu{position:relative;z-index:1}
 .menu__list{display:-webkit-box;display:-ms-flexbox;display:flex;gap:1.1764705882rem}
 .menu__list-item a{display:inline-block;height:4.1176470588rem;line-height:4.1176470588rem;font-size:.8823529412rem;font-weight:400;text-transform:uppercase;-webkit-transition:.3s ease;transition:.3s ease;border-bottom:2px solid transparent}
