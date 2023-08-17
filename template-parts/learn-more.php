@@ -10,6 +10,5 @@
     <div class="popup__form form">
       <?php echo apply_shortcodes('[contact-form-7 title="Learn more"]'); ?>
     </div>
-
   </div>
 </section>

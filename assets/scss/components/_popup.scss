@@ -13,6 +13,7 @@
   z-index: 10;
 
   &__content {
+    max-height: 92vh;
     width: rem(600);
     border-radius: rem(5);
 

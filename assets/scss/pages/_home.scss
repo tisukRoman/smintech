@@ -36,7 +36,7 @@
   &__image {
     position: absolute;
     width: 50vw;
-    top: calc(10% - 50vw * 0.8);
+    top: calc(10% - 50vw * 0.7);
     right: 0;
     z-index: 0;
 
@@ -266,15 +266,18 @@
     &--2 {
       flex: 1 1 22%;
       position: relative;
+      align-self: flex-end;
 
       @include for-tablet-landscape {
         order: 1;
+        align-self: center;
       }
 
       img {
         max-width: 100%;
 
         @include for-tablet-landscape {
+          border-radius: 25%;
           height: 370px;
         }
       }
@@ -300,7 +303,7 @@
       @include for-tablet-landscape {
         background: radial-gradient(
           50% 50% at 50% 50%,
-          rgba(0, 0, 0, 0.1) 0%,
+          rgba(0, 0, 0, 0.2) 0%,
           rgba(0, 0, 0, 0) 100%
         );
       }
@@ -330,11 +333,6 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: rem(30);
-  }
-
-  .card {
-    touch-action: none !important;
-    pointer-events: none !important;
   }
 
   .card:nth-child(1) {
