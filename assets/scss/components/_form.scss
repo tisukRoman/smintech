@@ -17,6 +17,11 @@
     }
   }
 
+  textarea.field {
+    resize: none;
+    height: rem(140);
+  }
+
   .button {
     display: block;
     margin: 0 auto;

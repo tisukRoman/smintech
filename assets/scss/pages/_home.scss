@@ -36,7 +36,7 @@
   &__image {
     position: absolute;
     width: 50vw;
-    top: 0;
+    top: calc(10% - 50vw * 0.8);
     right: 0;
     z-index: 0;
 
@@ -64,6 +64,11 @@
 
     height: rem(280);
     border-left: 2px solid $color-primary;
+
+    @include for-tablet-landscape {
+      justify-content: flex-start;
+      margin: rem(8) 0;
+    }
   }
 
   &__paragraph {
@@ -100,9 +105,12 @@
   background-color: $color-grey;
   margin-top: rem(100);
   height: rem(350);
-
   position: relative;
   overflow: hidden;
+
+  @include for-tablet-portrait {
+    height: auto;
+  }
 
   &__container {
     max-width: rem(1196 + 30);
@@ -112,6 +120,12 @@
     align-items: center;
     position: relative;
     z-index: 1;
+    gap: rem(30);
+
+    @include for-tablet-portrait {
+      flex-direction: column;
+      gap: rem(64);
+    }
   }
 
   &__text {
@@ -133,6 +147,10 @@
     top: 0;
     right: 0;
     z-index: 0;
+
+    @include for-tablet-portrait {
+      transform: translate(50%, 20%) scale(1.5);
+    }
   }
 
   &__heading-4 {
@@ -142,6 +160,22 @@
   &--2 &__image {
     left: 0;
     transform: translateX(10%);
+
+    @include for-tablet-portrait {
+      transform: translate(-100%, 20%) scale(1.5);
+    }
+  }
+
+  &--2 &__button {
+    @include for-tablet-portrait {
+      order: 2;
+    }
+  }
+
+  &--2 &__text {
+    @include for-tablet-portrait {
+      order: 1;
+    }
   }
 }
 
@@ -202,6 +236,12 @@
     height: rem(677);
     display: flex;
     align-items: center;
+
+    @include for-tablet-landscape {
+      height: auto;
+      flex-direction: column;
+      gap: rem(30);
+    }
   }
 
   &__col {
@@ -209,17 +249,34 @@
     flex-direction: column;
     gap: rem(70);
 
+    @include for-tablet-landscape {
+      gap: rem(30);
+    }
+
     &--1 {
       flex: 1 1 40%;
       margin-right: rem(97);
+
+      @include for-tablet-landscape {
+        margin-right: 0;
+        order: 2;
+      }
     }
 
     &--2 {
       flex: 1 1 22%;
       position: relative;
 
+      @include for-tablet-landscape {
+        order: 1;
+      }
+
       img {
         max-width: 100%;
+
+        @include for-tablet-landscape {
+          height: 370px;
+        }
       }
 
       &::after {
@@ -239,11 +296,24 @@
           rgba(0, 0, 0, 0) 100%
         );
       }
+
+      @include for-tablet-landscape {
+        background: radial-gradient(
+          50% 50% at 50% 50%,
+          rgba(0, 0, 0, 0.1) 0%,
+          rgba(0, 0, 0, 0) 100%
+        );
+      }
     }
 
     &--3 {
       flex: 1 1 40%;
       margin-left: rem(79);
+
+      @include for-tablet-landscape {
+        margin-left: 0;
+        order: 3;
+      }
     }
   }
 }
@@ -260,6 +330,11 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: rem(30);
+  }
+
+  .card {
+    touch-action: none !important;
+    pointer-events: none !important;
   }
 
   .card:nth-child(1) {

@@ -8,12 +8,31 @@
     display: flex;
     justify-content: space-between;
     gap: 8%;
+
+    @include for-tablet-landscape {
+      gap: rem(30);
+    }
+
+    @include for-tablet-portrait {
+      flex-direction: column;
+      gap: rem(48);
+      align-items: stretch;
+    }
   }
 
   &__logo {
-    max-width: rem(220);
+    width: max-content;
     margin-right: auto;
-    flex: 0 0;
+
+    @include for-tablet-portrait {
+      margin: 0 auto rem(48) auto;
+      max-width: 100%;
+      width: 50%;
+    }
+
+    img {
+      width: 100%;
+    }
   }
 
   &__content-box {
@@ -21,6 +40,12 @@
     flex: 1 1;
     display: flex;
     gap: rem(6);
+
+    @include for-tablet-portrait {
+      margin: 0 auto;
+      max-width: 100%;
+      width: 70%;
+    }
   }
 
   &__title {

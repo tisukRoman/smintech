@@ -28,10 +28,12 @@
     </nav>
 
     <div class="hero__text">
-      <h5 class="hero__subtitle">GFRB Rebar Factory</h5>
+      <h5 class="hero__subtitle">GFRP Rebars</h5>
       <h1 class="hero__title">Smart Innovation in<br>
       <b>concrete reinfocement</b></h1>
-      <p class="hero__paragraph paragraph">Lorem ipsum dolor sit amet consectetur. Id malesuada hac a egestas massa. At bibendum mauris sed ullamcorper quisque vel.</p>
+      <p class="hero__paragraph paragraph">
+        GFRP rebar is a new-age substitute for traditional steel in concrete reinforcement. An engineered construction material, GFRP rebars solve the biggest problem with steel: CORROSION.
+      </p>
     </div>
 
     <a href="#learn-more" class="hero__button button">
@@ -50,7 +52,7 @@
       <div class="about__text">
         <h4 class="about__heading-4 heading-4"><span>SMINBar world class</span> product made in India</h4>
         <p class="about__paragraph paragraph">
-        Lorem ipsum dolor sit amet consectetur. Neque elementum eros quis dolor ipsum. Nunc faucibus etiam purus egestas. Ultricies consectetur semper venenatis enim odio lectus sed. Nec ultrices nisl purus dignissim neque nec et.
+          We proudly offer a wide range of GFRP rebars manufactured in India to the highest quality, strength, and durability standards. All our products have undergone rigorous testing and exceed international industry specifications.
         </p>
       </div>
       <div class="about__image">
@@ -62,7 +64,7 @@
       <div class="about__text">
         <h4 class="about__heading-4 heading-4"><span>Trusted by experts</span> globally for world class solutions</h4>
         <p class="about__paragraph paragraph">
-          Lorem ipsum dolor sit amet consectetur. Neque elementum eros quis dolor ipsum. Nunc faucibus etiam purus egestas. Ultricies consectetur semper venenatis enim odio lectus sed. Nec ultrices nisl purus dignissim neque nec et.
+          Our product quality ensures reliability and performance in diverse construction applications. We comply with the ACI/ASTM manufacturing guidelines.
         </p>
       </div>
       <div class="about__image">
@@ -76,9 +78,9 @@
   <div class="future__container">
     <div class="future__text">
       <h2 class="future__heading-2 heading-2">Buy the <span>future</span></h2>
-      <h6 class="future__heading-6 heading-6">Leave a request and we will call you back.</h6>
+      <h6 class="future__heading-6 heading-6">Share your request, and our experts will get in touch with you.</h6>
       <p class="future__paragraph paragraph">
-        Neque elementum eros quis dolor ipsum. Nunc faucibus etiam purus egestas. Ultricies consectetur semper venenatis enim odio lectus sed. Nec ultrices nisl purus dignissim neque nec et.
+        Interested in learning how GFRP rebar-based concrete reinforcement can help you build stronger, lighter, more durable, and cost-effective concrete structures?
       </p>
     </div>
 
@@ -428,14 +430,14 @@
 <section id="future-2" class="future future--2">
   <div class="future__container">
     <div class="future__button">
-      <a href="#call-me-back" class="button">Call me back</a>
+      <a href="#call-me-back" class="button">Contact us</a>
     </div>
 
     <div class="future__text">
       <h4 class="future__heading-4 heading-4">Buy the <span>future</span></h4>
       <h6 class="future__heading-6 heading-6">Leave a request and we will call you back.</h6>
       <p class="future__paragraph paragraph">
-        Neque elementum eros quis dolor ipsum. Nunc faucibus etiam purus egestas. Ultricies consectetur semper venenatis enim odio lectus sed. Nec ultrices nisl purus dignissim neque nec et.
+        Interested in learning how GFRP rebar-based concrete reinforcement can help you build stronger, lighter, more durable, and cost-effective concrete structures?
       </p>
     </div>
   </div>

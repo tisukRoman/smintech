@@ -5,17 +5,37 @@
   align-items: center;
   gap: rem(30);
 
+  &__text {
+    @include for-tablet-landscape {
+      order: 2;
+    }
+  }
+
+  &__image {
+    @include for-tablet-landscape {
+      order: 1;
+    }
+  }
+
   &__title {
     color: $color-dark-1;
     text-align: right;
     font-size: rem(21);
     font-weight: 700;
+
+    @include for-tablet-landscape {
+      text-align: left;
+    }
   }
 
   &__paragraph {
     margin-top: rem(20);
     text-align: right;
     line-height: normal;
+
+    @include for-tablet-landscape {
+      text-align: left;
+    }
   }
 
   &--left &__title {
