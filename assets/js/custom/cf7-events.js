@@ -5,6 +5,7 @@
 /*
  * Download File when submit "Learn More" contact form
  */
+/*
 const downloadFile = () => {
   var link = document.createElement("a");
   link.setAttribute("download", "smintech-file");
@@ -19,3 +20,4 @@ learnMoreForm.addEventListener("wpcf7mailsent", (e) => {
   downloadFile();
   $("#learn-more").fadeOut(500);
 });
+*/

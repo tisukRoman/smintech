@@ -1,5 +1,3 @@
-"use strict";
-
 /*
  * CONTACT FORM 7 EVENTS
  */
@@ -7,18 +5,23 @@
 /*
  * Download File when submit "Learn More" contact form
  */
-var downloadFile = function downloadFile() {
+/*
+const downloadFile = () => {
   var link = document.createElement("a");
   link.setAttribute("download", "smintech-file");
   document.body.appendChild(link);
   link.href = smintech.template_uri + "/assets/img/hero.png";
   link.click();
 };
-var learnMoreForm = document.querySelector("#learn-more .wpcf7");
-learnMoreForm.addEventListener("wpcf7mailsent", function (e) {
+
+const learnMoreForm = document.querySelector("#learn-more .wpcf7");
+
+learnMoreForm.addEventListener("wpcf7mailsent", (e) => {
   downloadFile();
   $("#learn-more").fadeOut(500);
 });
+*/
+"use strict";
 "use strict";
 
 var menu_button = document.querySelector(".mobile-menu-icon");

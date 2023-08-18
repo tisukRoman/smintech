@@ -64,7 +64,8 @@ img{vertical-align:top}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:400}
 .header{position:fixed;top:0;width:100%;background-color:#fff;z-index:5;-webkit-transition:.3s ease;transition:.3s ease}
 .header__container{height:5.2941176471rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;gap:2.1176470588rem}
-.header__logo{margin-right:auto}
+.header__logo{margin-right:auto;-webkit-box-flex:0;-ms-flex:0 1;flex:0 1;min-width:11.7647058824rem}
+.header__logo img{width:100%}
 .header__contact{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;gap:9px;-webkit-transition:.2s ease;transition:.2s ease}
 .header__link{-webkit-transition:.3s ease;transition:.3s ease}
 .header__link:hover{color:#039535}
