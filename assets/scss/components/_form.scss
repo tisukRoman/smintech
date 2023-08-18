@@ -28,4 +28,37 @@
     margin: 0 auto;
     width: rem(280);
   }
+
+  .wpcf7 {
+    .field.wpcf7-not-valid {
+      border-bottom: 2px solid #f00;
+      transition: all 0.2s ease;
+
+      &::placeholder {
+        color: rgba(#f00, 0.7);
+      }
+    }
+
+    form.sent .wpcf7-response-output {
+      transition: all 0.2s ease;
+      padding: 0;
+      color: #32cd32;
+      border: none;
+    }
+
+    form.aborted .wpcf7-response-output,
+    form.failed .wpcf7-response-output,
+    form.invalid .wpcf7-response-output,
+    form.unaccepted .wpcf7-response-output {
+      transition: all 0.2s ease;
+      padding: 0;
+      color: #f00;
+      border: none;
+    }
+
+    .wpcf7-not-valid-tip {
+      transition: all 0.2s ease;
+      display: none;
+    }
+  }
 }

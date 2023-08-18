@@ -1,6 +1,10 @@
 .header {
-  position: relative;
-  z-index: 1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 5;
+  transition: 0.3s ease;
 
   &__container {
     height: rem(90);
@@ -21,6 +25,7 @@
     display: flex;
     align-items: center;
     gap: 9px;
+    transition: 0.2s ease;
 
     @include for-mobile {
       display: none;
@@ -34,4 +39,33 @@
       color: $color-primary;
     }
   }
+
+  .mobile-menu-icon {
+    display: none;
+
+    @include for-mobile {
+      display: block;
+    }
+  }
+
+  .menu {
+    transition: 0.3s ease;
+    transform: translateX(100vw);
+    width: 0;
+  }
+}
+
+.header.sticky {
+  box-shadow: 4px 4px 16px rgba(#000, 0.2);
+}
+
+.header.sticky .header__contact {
+  position: fixed;
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+.header.sticky .menu {
+  transform: translateX(0);
+  width: auto;
 }

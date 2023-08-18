@@ -21,6 +21,20 @@ learnMoreForm.addEventListener("wpcf7mailsent", function (e) {
 });
 "use strict";
 
+var menu_button = document.querySelector(".mobile-menu-icon");
+var mobile_menu = document.querySelector(".mobile-menu");
+menu_button.addEventListener("click", function () {
+  mobile_menu.classList.toggle("open");
+});
+document.addEventListener("click", function (e) {
+  var el = e.target;
+  if (el.matches(".mobile-menu-icon img")) {
+    return;
+  }
+  mobile_menu.classList.remove("open");
+});
+"use strict";
+
 /*
  * Call Me Back Popup
  */
@@ -126,3 +140,24 @@ jQuery(document).ready(function ($) {
     }]
   });
 });
+"use strict";
+
+// When the user scrolls the page, execute myFunction
+window.onscroll = function () {
+  toggleSticky();
+};
+
+// Get the header
+var header = document.querySelector(".header");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function toggleSticky() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}

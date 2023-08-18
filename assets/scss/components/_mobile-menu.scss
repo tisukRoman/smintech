@@ -1,0 +1,32 @@
+.mobile-menu {
+  transition: 0.3s ease;
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+
+  &__list-item {
+    background-color: #fff;
+    border-bottom: 1px solid $color-dark-2;
+
+    &:active {
+      background-color: #eee;
+    }
+
+    a {
+      padding: 1rem;
+      display: block;
+      height: 100%;
+      width: 100%;
+      color: $color-dark-1;
+
+      &:active {
+        color: $color-primary;
+      }
+    }
+  }
+}
+
+.mobile-menu.open {
+  max-height: 100vh;
+  opacity: 1;
+}

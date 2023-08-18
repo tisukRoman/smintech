@@ -35,6 +35,52 @@
       <div class="mobile-menu-icon">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/mobile-menu.svg" />
       </div>
+
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__list-item">
+            <a href="#">Homepage</a>
+          </li>
+          <li class="menu__list-item">
+            <a href="#about">GFRP REBAR</a>
+          </li>
+          <li class="menu__list-item">
+            <a href="#applications">Applications</a>
+          </li>
+          <li class="menu__list-item">
+            <a href="#advantages">Advantages</a>
+          </li>
+          <li class="menu__list-item">
+            <a href="#projects">Projects</a>
+          </li>
+          <li class="menu__list-item">
+            <a href="#call-me-back">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
     </div>
+
+    <nav class="mobile-menu">
+      <ul class="mobile-menu__list">
+        <li class="mobile-menu__list-item">
+          <a href="#">Homepage</a>
+        </li>
+        <li class="mobile-menu__list-item">
+          <a href="#about">GFRP REBAR</a>
+        </li>
+        <li class="mobile-menu__list-item">
+          <a href="#applications">Applications</a>
+        </li>
+        <li class="mobile-menu__list-item">
+          <a href="#advantages">Advantages</a>
+        </li>
+        <li class="mobile-menu__list-item">
+          <a href="#projects">Projects</a>
+        </li>
+        <li class="mobile-menu__list-item">
+          <a href="#call-me-back">Contact Us</a>
+        </li>
+      </ul>
+    </nav>
 
   </header>

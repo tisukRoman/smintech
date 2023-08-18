@@ -1,4 +1,5 @@
 .hero {
+  padding-top: rem(90);
   height: rem(770);
   background-color: $color-grey;
 
@@ -48,7 +49,7 @@
 
     @include for-mobile {
       display: block;
-      margin: rem(400) auto;
+      margin: rem(350) auto 0 auto;
       position: relative;
       z-index: 1;
     }

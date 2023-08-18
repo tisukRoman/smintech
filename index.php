@@ -320,11 +320,11 @@
       <article href="#" class="card">
         <figure class="card__figure">
           <img class="card__image" src="<?php echo get_template_directory_uri(); ?>/assets/img/project-1.jpg" />
-          <figcaption class="card__caption">Name project</figcaption>
+          <figcaption class="card__caption">Hall’s Harbour Wharf (Canada)</figcaption>
         </figure>
 
         <div class="card__text">
-          <h6 class="card__title">Name project</h6>
+          <h6 class="card__title">Hall’s Harbour Wharf (Canada)</h6>
           <p class="card__paragraph paragraph">
             Lorem ipsum dolor sit amet consectetur. Cursus ullamcorper mi ipsum nunc. Turpis volutpat sollicitudin viverra sed vel amet. Diam vulputate felis arcu volutpat at. Id nisi eget.
           </p>
@@ -339,11 +339,11 @@
       <article href="#" class="card">
         <figure class="card__figure">
           <img class="card__image" src="<?php echo get_template_directory_uri(); ?>/assets/img/project-2.jpg" />
-          <figcaption class="card__caption">Name project</figcaption>
+          <figcaption class="card__caption">YAS Island Formula 1 Racetrack (UAE)</figcaption>
         </figure>
 
         <div class="card__text">
-          <h6 class="card__title">Name project</h6>
+          <h6 class="card__title">YAS Island Formula 1 Racetrack (UAE)</h6>
           <p class="card__paragraph paragraph">
             Lorem ipsum dolor sit amet consectetur. Cursus ullamcorper mi ipsum nunc. Turpis volutpat sollicitudin viverra sed vel amet. Diam vulputate felis arcu volutpat at. Id nisi eget.
           </p>
@@ -358,11 +358,11 @@
       <article href="#" class="card">
         <figure class="card__figure">
           <img class="card__image" src="<?php echo get_template_directory_uri(); ?>/assets/img/project-3.jpg" />
-          <figcaption class="card__caption">Name project</figcaption>
+          <figcaption class="card__caption">Mike & Ophelia Lazaridis Quantum-Nano Centre (Canada)</figcaption>
         </figure>
 
         <div class="card__text">
-          <h6 class="card__title">Name project</h6>
+          <h6 class="card__title">Mike & Ophelia Lazaridis Quantum-Nano Centre (Canada)</h6>
           <p class="card__paragraph paragraph">
             Lorem ipsum dolor sit amet consectetur. Cursus ullamcorper mi ipsum nunc. Turpis volutpat sollicitudin viverra sed vel amet. Diam vulputate felis arcu volutpat at. Id nisi eget.
           </p>
@@ -377,11 +377,11 @@
       <article href="#" class="card">
         <figure class="card__figure">
           <img class="card__image" src="<?php echo get_template_directory_uri(); ?>/assets/img/project-4.jpg" />
-          <figcaption class="card__caption">Name project</figcaption>
+          <figcaption class="card__caption">The Giant Sculpture (UAE)</figcaption>
         </figure>
 
         <div class="card__text">
-          <h6 class="card__title">Name project</h6>
+          <h6 class="card__title">The Giant Sculpture (UAE)</h6>
           <p class="card__paragraph paragraph">
             Lorem ipsum dolor sit amet consectetur. Cursus ullamcorper mi ipsum nunc. Turpis volutpat sollicitudin viverra sed vel amet. Diam vulputate felis arcu volutpat at. Id nisi eget.
           </p>
@@ -396,11 +396,11 @@
       <article href="#" class="card">
         <figure class="card__figure">
           <img class="card__image" src="<?php echo get_template_directory_uri(); ?>/assets/img/project-5.jpg" />
-          <figcaption class="card__caption">Name project</figcaption>
+          <figcaption class="card__caption">Fredrikstad Bascule Footbridge (Norway)</figcaption>
         </figure>
 
         <div class="card__text">
-          <h6 class="card__title">Name project</h6>
+          <h6 class="card__title">Fredrikstad Bascule Footbridge (Norway)</h6>
           <p class="card__paragraph paragraph">
             Lorem ipsum dolor sit amet consectetur. Cursus ullamcorper mi ipsum nunc. Turpis volutpat sollicitudin viverra sed vel amet. Diam vulputate felis arcu volutpat at. Id nisi eget.
           </p>
@@ -415,11 +415,11 @@
       <article href="#" class="card">
         <figure class="card__figure">
           <img class="card__image" src="<?php echo get_template_directory_uri(); ?>/assets/img/project-6.jpg" />
-          <figcaption class="card__caption">Name project</figcaption>
+          <figcaption class="card__caption">Heydar Aliyev Center (Azerbaijan)</figcaption>
         </figure>
 
         <div class="card__text">
-          <h6 class="card__title">Name project</h6>
+          <h6 class="card__title">Heydar Aliyev Center (Azerbaijan)</h6>
           <p class="card__paragraph paragraph">
             Lorem ipsum dolor sit amet consectetur. Cursus ullamcorper mi ipsum nunc. Turpis volutpat sollicitudin viverra sed vel amet. Diam vulputate felis arcu volutpat at. Id nisi eget.
           </p>
