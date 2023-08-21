@@ -30,5 +30,10 @@
       background-color: $color-primary;
       color: #fff;
     }
+
+    &:active {
+      background-color: #f4f4f4;
+      color: $color-dark-1;
+    }
   }
 }

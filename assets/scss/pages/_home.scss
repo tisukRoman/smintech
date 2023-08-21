@@ -278,7 +278,9 @@
     gap: rem(30);
 
     @include for-mobile {
-      height: rem(720);
+      height: rem(590); // temp
+
+      //height: rem(720);
       display: flex;
     }
   }

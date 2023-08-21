@@ -21,7 +21,7 @@
     transform: translateY(100%);
 
     @include for-mobile {
-      height: rem(300);
+      height: rem(120);
       position: relative;
       transform: none;
     }
@@ -42,12 +42,14 @@
   }
 
   &__paragraph {
+    display: none !important; // temp
+
     margin-top: rem(20);
     color: #fff;
   }
 
   &__link {
-    display: none !important; // for now
+    display: none !important; // temp
 
     margin-top: rem(25);
     color: #fff;
@@ -66,7 +68,7 @@
     position: relative;
 
     @include for-mobile {
-      height: rem(300);
+      height: rem(350);
     }
 
     img {

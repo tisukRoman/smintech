@@ -164,3 +164,44 @@ function toggleSticky() {
     header.classList.remove("sticky");
   }
 }
+"use strict";
+
+function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
+function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && iter[Symbol.iterator] != null || iter["@@iterator"] != null) return Array.from(iter); }
+function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToArray(arr); }
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
+/*
+ * Highlithing anchor links
+ */
+
+var setActiveLinks = function setActiveLinks() {
+  var hashLink = window.location.hash;
+  var links = _toConsumableArray(document.querySelectorAll(".menu__list-item a"));
+  links.forEach(function (link) {
+    var linkValue = "#" + link.href.split("#")[1];
+    if (!hashLink && linkValue === "#") {
+      link.classList.add("active");
+    }
+    if (linkValue === hashLink) {
+      link.classList.add("active");
+    }
+  });
+};
+var resetActiveLinks = function resetActiveLinks() {
+  var links = _toConsumableArray(document.querySelectorAll(".menu__list-item a"));
+  links.forEach(function (link) {
+    return link.classList.remove("active");
+  });
+};
+var menus = _toConsumableArray(document.querySelectorAll(".menu"));
+menus.forEach(function (menu) {
+  menu.addEventListener("click", function (e) {
+    if (e.target.nodeName !== "A") return;
+    setTimeout(function () {
+      resetActiveLinks();
+      setActiveLinks();
+    }, 100);
+  });
+});
